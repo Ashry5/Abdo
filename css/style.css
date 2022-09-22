@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    height: 90px;
+    color: #fff;
+    z-index: 99;
+}
+
+header .logo{
+    line-height: 20px;
+    position: absolute;
+    left: 5%;
+    font-size: 40px;
+}
+
+header nav{
+    position: absolute;
+    top: 30px;
+    right: 5%;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+    padding: 15px 0;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+.me{
+    width: 100%;
+    height: 100vh;
+    margin-top: 90px;
+    background: #ddd;
+    height: 600px;
+    position: relative;
+    text-align: center;
+}
+
+.me img{
+    width: 29.5%;
+}
+
+.preWorks{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.preWorks h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.preWorks .work{
+    width: 27%;
+    display: inline-block;
+    margin-left: 4.75%;
+    margin-bottom: 50px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    height: 300px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.preWorks .work:hover{
+    transform: scale(1.1);
+}
+
+.preWorks .work img{
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.preWorks .work .workDef{
+    padding: 15px;
+}
+
+.preWorks .work .workDef h3{
+    font-size: 20px;
+}
+
+.preWorks .work .workDef p{
+    color: rgb(120, 120, 120);
+}
+
+.preWorks .work .workDef span{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about{
+    width: 90.5%;
+    height: 333px;
+    padding: 0 4.75%;
+    margin-top: 80px;
+    background: linear-gradient(orange, #fff);
+}
+
+.about img{
+    float: left;
+    width: 21%;
+    margin-right: 8%;
+}
+
+.about h2{
+    font-size: 35px;
+}
+
+.about p{
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.skills{
+    width: 90.5%;
+    padding: 0 4.75%;
+    margin-top: 100px;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.skill{
+    margin-bottom: 50px;
+}
+
+.skill p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.skill .proAll{
+    width: 60%;
+    background-color: #fff;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 18px rgb(134, 134, 134);
+}
+
+.skill .percent{
+    height: 35px;
+    border-radius: 10px;
+    background-color: orange;
+    color: #fff;
+    line-height: 35px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.skill .html{
+    width: 90%;
+}
+.skill .css{
+    width: 80%;
+}
+.skill .js{
+    width: 40%;
+}
+.skill .react{
+    width: 25%;
+}
+
+.contact{
+    width: 90%;
+    padding: 0 5%;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+.contact h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contactForm{
+    width: 70%;
+    margin: auto;
+}
+
+.contactForm label{
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contactForm input{
+    height: 40px;
+}
+
+.contactForm textarea{
+    padding-top: 10px;
+}
+
+.contactForm textarea,
+.contactForm input{
+    margin-bottom: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    padding-left: 10px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+}
+
+.contactForm button{
+    width: 30%;
+    height: 50px;
+    background-color: orange;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    transition: .2s all;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+}
